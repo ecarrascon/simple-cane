@@ -3,20 +3,23 @@
 	"id": "simplecane",
 	"version": "${version}",
 	"name": "SimpleCane",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Simple Quality Of Life mod to make sugar canes compact",
 	"authors": [
-		"Me!"
+		"ECarrascon"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/ecarrascon/simple-cane"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/simplecane/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
           "com.ecarrascon.simplecane.SimpleCane"
+		],
+		"client": [
+			"com.ecarrascon.simplecane.SimpleCaneClient"
 		]
 	},
 	"mixins": [
